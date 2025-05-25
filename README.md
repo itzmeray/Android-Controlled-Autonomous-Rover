@@ -33,11 +33,23 @@ This is my final year Computer Science & Engineering project – an Android-cont
 - Firebase Realtime Database
 - Arduino IDE (C++)
 - ESP32 + NodeMCU (ESP8266WiFi, Firebase libraries)
-  
-## RESULTS
-<img src="images/rover1.jpg" width="500" alt="Rover Photo"> <img src="images/rover2.jpg" width="500" alt="Rover Photo">
-<img src="images/autonomous-with-data.jpg" width="420" alt="Rover Photo"> <img src="images/manual-with-data.jpg" width="420" alt="Rover Photo"> 
-<img src="images/Firebase" width="1000" alt="Rover Photo"> 
+
+## 📸 RESULTS
+
+<p align="center">
+  <img src="images/rover1.jpg" width="480" alt="Rover Front View" style="margin: 10px;">
+  <img src="images/rover2.jpg" width="480" alt="Rover Side View" style="margin: 10px;">
+</p>
+
+<p align="center">
+  <img src="images/autonomous-with-data.jpg" width="420" alt="Autonomous Mode Screenshot" style="margin: 10px;">
+  <img src="images/manual-with-data.jpg" width="420" alt="Manual Mode Screenshot" style="margin: 10px;">
+</p>
+
+<p align="center">
+  <img src="images/Firebase.jpg" width="1000" alt="Firebase Realtime Database Screenshot">
+</p>
+
 
 
 
