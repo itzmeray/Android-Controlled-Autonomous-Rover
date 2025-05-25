@@ -47,7 +47,7 @@ This is my final year Computer Science & Engineering project – an Android-cont
 </p>
 
 <p align="center">
-  <img src="images/Firebase.jpg" width="1000" alt="Firebase Realtime Database Screenshot">
+  <img src="images/Firebase" width="1000" alt="Firebase Realtime Database Screenshot">
 </p>
 
 
