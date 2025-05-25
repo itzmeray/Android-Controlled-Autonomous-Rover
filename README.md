@@ -36,7 +36,7 @@ This is my final year Computer Science & Engineering project – an Android-cont
   
 ## RESULTS
 <img src="images/rover1.jpg" width="500" alt="Rover Photo"> <img src="images/rover2.jpg" width="500" alt="Rover Photo">
-<img src="images/autonomous-with-data.jpg" width="420" alt="Rover Photo"> <img src="imges/manual-with-data.jpg" width="420" alt="Rover Photo"> 
+<img src="images/autonomous-with-data.jpg" width="420" alt="Rover Photo"> <img src="images/manual-with-data.jpg" width="420" alt="Rover Photo"> 
 <img src="images/Firebase" width="1000" alt="Rover Photo"> 
 
 
