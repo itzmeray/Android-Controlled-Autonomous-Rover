@@ -1,0 +1,27 @@
+<resources>
+    <!-- App Title -->
+    <string name="app_name"> ACar</string>
+
+    <!-- Titles -->
+    <string name="manual_control_title">🕹️ Manual Control</string>
+    <string name="autonomous_control_title">🤖 Autonomous Control</string>
+
+    <!-- Sensor Data Placeholders -->
+    <string name="temp_humidity_placeholder">🌡️ Temperature &amp; Humidity: N/A</string>
+    <string name="gps_placeholder">📍 GPS: N/A</string>
+    <string name="raindrop_placeholder">💧 Raindrop: N/A</string>
+    <string name="moisture_placeholder">🌱 soil Moisture: N/A</string>
+
+    <!-- Rain Status -->
+    <string name="rain_detected">💧 Rain Detected</string>
+    <string name="no_rain_detected">💧 No Rain Detected</string>
+
+    <!-- Button Labels -->
+    <string name="button_forward">⬆️ Forward</string>
+    <string name="button_backward">⬇️ Backward</string>
+    <string name="button_left">⬅️ Left</string>
+    <string name="button_right">➡️ Right</string>
+    <string name="button_stop">⏹️ Stop</string>
+    <string name="button_autonomous_control">🔄 Return to Autonomous Control</string>
+    <string name="button_return_to_manual">🔙 Return to Manual Control</string>
+</resources>

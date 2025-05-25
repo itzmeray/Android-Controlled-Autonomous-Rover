@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9FC"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Project Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Controlled Autonomous Rover"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#3333FF"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Project Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="Our project, Android Controlled Autonomous Rover, is inspired by groundbreaking advancements in space exploration, particularly the Chandrayaan-3 Pragyan Rover and other planetary rovers like NASA's Perseverance. These rovers embody innovation, autonomy, and the ability to navigate challenging terrains while collecting vital data."
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="Similarly, our rover is designed to combine cutting-edge technology with practical functionality. It can move in all directions (forward, backward, left, and right) and operates in two modes:"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Two Modes Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two Modes"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#050505"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Mode Points -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="• Manual Mode: Users can control the rover through an Android app, enabling movements such as Forward, Backward, Left, and Right. Sensor data, including temperature, humidity, and GPS location, is displayed in real time."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="• Autonomous Mode: The rover uses ultrasonic and infrared sensors to detect and avoid obstacles, navigate safely, and collect environmental data. It also streams live video from the onboard camera for real-time monitoring."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="Our rover also features a real-time video streaming system, capturing live visuals for remote monitoring. With these capabilities, it mirrors the purpose of exploration rovers, aiming to adapt to various environments and gather critical data efficiently."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Major Project by"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="#777777"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Team Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team Members"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Team Member List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• B Kiran - 2LG21CS005"
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:padding="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Prajwal Babaleshwar - 2LG21CS028"
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:padding="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Soujanya - 2LG21CS040"
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:padding="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Spoorti - 2LG21CS042"
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:padding="4dp" />
+        </LinearLayout>
+
+        <!-- Footer Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department of Computer Science and Engineering"
+                android:textSize="15sp"
+                android:textColor="#777777"
+                android:gravity="center"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Government Engineering College Talkal, Koppal"
+                android:textSize="18sp"
+                android:textColor="#777777"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
