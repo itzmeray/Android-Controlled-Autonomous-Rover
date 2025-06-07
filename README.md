@@ -2,7 +2,7 @@
 
 Final Year Mini Project - Android-controlled autonomous rover using Arduino Uno, NodeMCU, ESP32-CAM, and Firebase.
 
-> Mini Project submitted to  
+> Major Project submitted to  
 **GOVERNMENT OF KARNATAKA**  
 **Government Engineering College, Talakal, Koppal-583238**  
 Affiliated to **Visvesvaraya Technological University (VTU), Belagavi**  
