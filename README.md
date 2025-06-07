@@ -1,24 +1,53 @@
 # 🤖 Android-Controlled Autonomous Rover
 
-Final Year Project - Android-controlled autonomous rover using Arduino Uno, NodeMCU, ESP32-CAM, and Firebase.
+Final Year Mini Project - Android-controlled autonomous rover using Arduino Uno, NodeMCU, ESP32-CAM, and Firebase.
+
 > Mini Project submitted to  
 **GOVERNMENT OF KARNATAKA**  
 **Government Engineering College, Talakal, Koppal-583238**  
-Under Visvesvaraya Technological University, Belagavi  
-**B.E. 7th Semester, Computer Science & Engineering**  
+Affiliated to **Visvesvaraya Technological University (VTU), Belagavi**  
+Department of Computer Science & Engineering  
+B.E. 7th Semester (2024–2025)  
+Project Reference No.: **48S_BE_2879**  
+Sponsored under: **KSCST Student Project Programme – 48th Series**  
 
+---
 
-This is my final year Computer Science & Engineering project – an Android-controlled autonomous rover powered by NodeMCU (ESP8266), Arduino Uno, ESP32-CAM, and Firebase. The rover can be controlled manually via an Android app or navigate autonomously using obstacle sensors.
+## 👨‍🎓 Team Members
+
+- **B Kiran**  
+- **Prajwal Babalenshwar**  
+- **Soujanya**  
+- **Spoorti**  
+**Guide:** Prof. Veeresh
+
+---
+
+## 📜 Project Abstract
+
+This is our final year Computer Science & Engineering mini project, **sponsored by KSCST**, aimed at developing an **Android-controlled autonomous rover** capable of operating in both manual and autonomous navigation modes. The rover utilizes **NodeMCU (ESP8266)** for cloud connectivity, **Arduino Uno** for motor control, and an **ESP32-CAM** for real-time video streaming. Commands and sensor data are synchronized via **Firebase Realtime Database**. The rover detects environmental factors like **temperature, humidity, soil moisture, and rain**, while also avoiding obstacles autonomously using ultrasonic and infrared sensors.
+
+---
+
+## 🎯 Objectives
+
+- Build a 6-wheel autonomous rover with manual control via Android app.
+- Implement real-time command and data sync using Firebase Realtime Database.
+- Integrate multiple sensors for autonomous navigation and environment monitoring.
+- Stream live video from the rover using ESP32-CAM over Wi-Fi.
+- Design an intuitive Android UI for manual/autonomous control modes.
 
 ---
 
 ## 🚗 Key Features
 
-- Real-time movement control from Android app (manual/autonomous modes)
-- Firebase Realtime Database for data/command sync
-- Temperature, humidity, soil moisture, and rain detection
-- Live video streaming using ESP32-CAM
-- 6-wheel drive using two L298N motor drivers
+- 🔁 Manual and autonomous driving modes via Android app  
+- ☁️ Firebase integration for real-time control and sensor sync  
+- 🌡️ DHT22 sensor for temperature & humidity  
+- 🌱 Soil moisture detection and rain sensing  
+- 📷 Live video streaming from ESP32-CAM  
+- ⚙️ 6-wheel differential drive using two L298N motor drivers  
+- 🚧 Obstacle avoidance with ultrasonic and IR sensors
 
 ---
 
@@ -27,31 +56,41 @@ This is my final year Computer Science & Engineering project – an Android-cont
 - Arduino Uno  
 - NodeMCU (ESP8266)  
 - ESP32-CAM  
-- 2x L298N Motor Drivers  
-- 6x DC Motors (3 per side)  
-- DHT22 Sensor  
+- 2× L298N Motor Drivers  
+- 6× DC Motors (3 left + 3 right)  
+- DHT22 Temperature and Humidity Sensor  
 - Soil Moisture Sensor  
 - Raindrop Sensor  
 - Ultrasonic and IR Sensors  
-- Power bank and batteries  
-- 6-wheel rover chassis  
+- 6-wheel Rover Chassis  
+- Power Bank (NodeMCU) and Batteries (Motors)
 
 ---
 
 ## 📱 Software Stack
 
-- Android (Java + XML)  
-- Firebase Realtime Database  
-- Arduino IDE (C++)  
-- ESP32 + NodeMCU (ESP8266WiFi, Firebase libraries)  
+- **Android App**: Java + XML  
+- **Firebase**: Realtime Database for cloud sync  
+- **Arduino IDE**: C/C++ for NodeMCU and Arduino  
+- **ESP32-CAM**: For camera live feed over Wi-Fi
+
+---
+
+## 🧪 Methodology
+
+1. Android app sends direction commands (`forward`, `left`, etc.) to Firebase.
+2. NodeMCU reads these commands and forwards them to Arduino Uno over Serial.
+3. Arduino Uno drives the motors via two L298N drivers.
+4. Sensors (DHT22, Soil Moisture, Raindrop) are connected to NodeMCU and send data to Firebase.
+5. ESP32-CAM streams video to a public link (YouTube/stream server).
+6. App UI supports mode switching, live telemetry display, and control interface.
 
 ---
 
 ## 🎬 Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/-uvBnRH44bM/0.jpg)](https://youtube.com/shorts/-uvBnRH44bM?si=YHs-B2Fj_NprWuLh)
-
-> 📺 *Click the image to watch the project in action on YouTube.*
+[![Watch the demo](https://img.youtube.com/vi/-uvBnRH44bM/0.jpg)](https://youtube.com/shorts/-uvBnRH44bM?si=YHs-B2Fj_NprWuLh)  
+📺 *Click the image to watch the project demo on YouTube.*
 
 ---
 
@@ -73,6 +112,26 @@ This is my final year Computer Science & Engineering project – an Android-cont
 
 ---
 
+## 🔮 Future Scope
+
+- Integration with GPS for location tracking.
+- Use of AI models for smarter obstacle avoidance and path planning.
+- Expansion to agricultural automation and surveillance.
+- Real-time alerts and notifications via app.
+- Adding solar panels for sustainable power source.
+
+---
+
+## 📄 Project Sanction Details
+
+- **Sanctioned By**: Karnataka State Council for Science and Technology (KSCST)  
+- **Project Reference No.**: 48S_BE_2879  
+- **Sanctioned Amount**: ₹4,500  
+- **Institution**: Government Engineering College, Talakal  
+- **Evaluation Mode**: Hardware demo with live simulation
+
+---
+
 ## 👨‍💻 Author
 
 **Kiran Shetty**  
@@ -81,4 +140,4 @@ This is my final year Computer Science & Engineering project – an Android-cont
 
 ---
 
-⭐ *If you like this project, please give it a star and share it with your friends!*
+⭐ *If you liked this project, feel free to star it and share with peers interested in robotics, IoT, and embedded systems!*
