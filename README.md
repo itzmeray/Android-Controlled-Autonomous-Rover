@@ -1,6 +1,12 @@
 # 🤖 Android-Controlled Autonomous Rover
 
 Final Year Project - Android-controlled autonomous rover using Arduino Uno, NodeMCU, ESP32-CAM, and Firebase.
+> Mini Project submitted to  
+**GOVERNMENT OF KARNATAKA**  
+**Government Engineering College, Talakal, Koppal-583238**  
+Under Visvesvaraya Technological University, Belagavi  
+**B.E. 7th Semester, Computer Science & Engineering**  
+
 
 This is my final year Computer Science & Engineering project – an Android-controlled autonomous rover powered by NodeMCU (ESP8266), Arduino Uno, ESP32-CAM, and Firebase. The rover can be controlled manually via an Android app or navigate autonomously using obstacle sensors.
 
